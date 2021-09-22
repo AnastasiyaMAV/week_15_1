@@ -18,7 +18,8 @@ function divide() {
     let firstNumber = Number(document.getElementById('number1').value);
     let secondNumber = Number(document.getElementById('number2').value);
     
-    if(secondNumber != 0){
+    //if(secondNumber != 0){
+    if(secondNumber){        
         resultNumber = firstNumber / secondNumber;
     } else {
         resultNumber = 'Деление на ноль невозможно';
